@@ -1,0 +1,12 @@
+n = int(input("Enter the number of terms for fibonacci series : "))
+ft = 0
+st = 1
+i = 1
+nt = 0
+print("Fibonacci Series : ",end="")
+while i<=n:
+    print(ft,end="  ")
+    nt = st + ft
+    ft = st
+    st = nt
+    i+=1
